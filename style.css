@@ -1,0 +1,45 @@
+body {
+  font-family: '微軟正黑體', sans-serif;
+  background: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#app {
+  width: 90%;
+  max-width: 600px;
+  background: #1e1e2f;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.page {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page.active {
+  display: flex;
+}
+
+button {
+  background: #8a2be2;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #6a1dbf;
+}
